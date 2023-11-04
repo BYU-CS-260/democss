@@ -43,16 +43,29 @@ p {
   }
 }
 ```
-5) Now lets create a div to hold a box and add it to our HTML
+5) Now lets create a div to hold a box and add it to the bottom of our HTML
 ```html
 <div class="box"></div>
 ```
-6) You wont see anything until you add some CSS to show a box
+6) You wont see anything until you add some CSS to show a box.  It will move up and down depending on how big the text above it is.
 ```html
 .box {
   background-color: rebeccapurple;
   border-radius: 10px;
   width: 100px;
   height: 100px;
+}
+```
+7) Now lets add an animation to the box to rotate it using the anomation defined in rotate.  We can specify the duration of the animation and 
+```html
+.box {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 ```
