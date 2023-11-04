@@ -138,6 +138,7 @@ p {
 
 
 article {
+  color:white;
   /* add the animation, but pause it by default */
   animation: spin 2.5s infinite linear paused;
   
@@ -177,3 +178,4 @@ article {
   }
 }
 ```
+11) Notice that this CSS uses [oklch](https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl) to easily select different colors.
