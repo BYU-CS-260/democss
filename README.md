@@ -77,3 +77,27 @@ p {
   }
 }
 ```
+8) This makes me a little dizzy, so lets have the box only spin when we are hovering over it.
+```html
+.box {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+.box:hover {
+  animation-play-state: running;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+```   
