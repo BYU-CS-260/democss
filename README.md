@@ -16,7 +16,7 @@ p {
   color:red;
 }
 ```
-4) But there is a lot more you can do.  Lets get the text to move inside the p styling in the CSS file.  We will define an animation called slidein that scales the margins, width and font-size.
+4) But there is a lot more you can do.  Lets get the text to move inside the p styling in the CSS file.  We will define an animation called slidein that scales the margins, width and font-size in our CSS file.
 ```
 p {
   color:red;
@@ -41,5 +41,18 @@ p {
     margin-left: 0%;
     width: 100%;
   }
+}
+```
+5) Now lets create a div to hold a box and add it to our HTML
+```
+<div class="box"></div>
+```
+6) You wont see anything until you add some CSS to show a box
+```
+.box {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
 }
 ```
