@@ -56,7 +56,7 @@ p {
   height: 100px;
 }
 ```
-7) Now lets add an animation to the box to rotate it using the anomation defined in rotate.  We can specify the duration of the animation and 
+7) Now lets add an animation to the box to rotate it using the anomation defined in rotate.  We can specify the duration of the animation and the state for the animation.
 ```html
 .box {
   background-color: rebeccapurple;
