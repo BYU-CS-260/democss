@@ -10,3 +10,9 @@ This tutorial will introduce you to some fun animations you can do with HTML and
   languid, sleepy voice.
 </p>
 ```
+3) You can change the color of the text by putting in some CSS to change the color for all p tags
+```
+p {
+  color:red;
+}
+```
