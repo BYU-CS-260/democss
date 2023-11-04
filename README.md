@@ -11,13 +11,13 @@ This tutorial will introduce you to some fun animations you can do with HTML and
 </p>
 ```
 3) You can change the color of the text by putting in some CSS to change the color for all p tags
-```
+```html
 p {
   color:red;
 }
 ```
 4) But there is a lot more you can do.  Lets get the text to move inside the p styling in the CSS file.  We will define an animation called slidein that scales the margins, width and font-size in our CSS file.
-```
+```html
 p {
   color:red;
   animation-duration: 3s;
@@ -44,11 +44,11 @@ p {
 }
 ```
 5) Now lets create a div to hold a box and add it to our HTML
-```
+```html
 <div class="box"></div>
 ```
 6) You wont see anything until you add some CSS to show a box
-```
+```html
 .box {
   background-color: rebeccapurple;
   border-radius: 10px;
