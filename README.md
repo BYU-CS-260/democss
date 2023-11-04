@@ -56,7 +56,7 @@ p {
   height: 100px;
 }
 ```
-7) Now lets add an animation to the box to rotate it using the anomation defined in rotate.  We can specify the duration of the animation and the state for the animation.
+7) Now lets add an animation to the box to rotate it using the anomation defined in rotate.  We can specify the duration of the animation and the state for the animation.  Notice that we are defining a different set of keyframes based on rotation.
 ```html
 .box {
   background-color: rebeccapurple;
@@ -67,5 +67,13 @@ p {
   animation-duration: 0.7s;
   animation-iteration-count: infinite;
   animation-play-state: running;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 ```
