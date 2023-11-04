@@ -101,3 +101,14 @@ p {
   }
 }
 ```   
+9) Now add some new tags that we will define the CSS for
+```html
+<main>
+  <article>
+    <h1>Hey look, this is only CSS!</h1>
+    <p>
+      I didn’t know you could do gradient borders like this. Hover over this element to see the gradient animate!
+    </p>
+  </article>
+</main>
+```
