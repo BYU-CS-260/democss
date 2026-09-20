@@ -1,8 +1,9 @@
 # Demo CSS Tutorial
 This tutorial will introduce you to some fun animations you can do with HTML and CSS.
 
-1) Lets start by opening a new css.html file in vscode (or use [codepen](https://codepen.io/) and create a login with your google account).
-2) Now add some text to a paragraph tag
+1) Lets start by opening a new css.html file in vscode.
+2) Create a basic html file by entering html:5
+3) Now add some text to a paragraph tag to the body.
 ```html
 <p>
   The Caterpillar and Alice looked at each other for some time in silence: at
@@ -10,13 +11,16 @@ This tutorial will introduce you to some fun animations you can do with HTML and
   languid, sleepy voice.
 </p>
 ```
-3) You can change the color of the text by putting in some CSS to change the color for all p tags
+3) Display the page with liveserver
+4) You can change the color of the text by putting in some CSS to change the color for all p tags.  Add a style tag to the head.
 ```html
+<style>
 p {
   color:red;
 }
+</style>
 ```
-4) But there is a lot more you can do.  Lets get the text to move inside the p styling in the CSS file.  We will define an animation called slidein that scales the margins, width and font-size in our CSS file.
+5) But there is a lot more you can do.  Lets get the text to move inside the p styling in the CSS file.  We will define an animation called slidein that scales the margins, width and font-size in our CSS file.
 ```html
 p {
   color:red;
