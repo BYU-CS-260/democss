@@ -183,3 +183,7 @@ article {
 }
 ```
 11) Notice that this CSS uses [oklch](https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl) to easily select different colors.
+12) Now put everything inside of they style tag into a file called style.css and add a link tag
+```
+<link rel="stylesheet" href="style.css">
+```
